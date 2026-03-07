@@ -6,6 +6,13 @@ public class Main {
     Book book4 = new Book("Data Structures", "Mark Allen", "104");
     Book book5 = new Book("Operating System", "Galvin", "105");
 
+    book1.displayInfo();
+    book2.displayInfo();
+    book3.displayInfo();
+    book4.displayInfo();
+    book5.displayInfo(); 
+
+    
     System.out.println(Book.getTotalBooks());
 
     

@@ -40,4 +40,12 @@
     return numberOfBooks;
   }
 
+  void displayInfo(){
+    System.out.println("Title : " + title);
+    System.out.println("Author : " + author);
+    System.out.println("ISBN : " + isBn);
+    System.out.println("Status : " + (isBorrowed ? "Borrowed" : "Available"));
+    System.out.println();
+  }
+
 }
