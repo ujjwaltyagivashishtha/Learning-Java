@@ -1,2 +1,26 @@
-.DS_Store
+// gitignore for java projects
+# Compiled class files
 *.class
+# Log files
+*.log
+# Package files*.jar
+*.war
+*.ear
+# IDE specific files
+/.idea/
+*.iml
+# Maven target directory
+/target/
+# Gradle build directory
+/build/
+# Eclipse specific files
+/.project
+/.classpath
+/.settings/
+# NetBeans specific files
+/nbproject/
+# VS Code specific files
+/.vscode/
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
