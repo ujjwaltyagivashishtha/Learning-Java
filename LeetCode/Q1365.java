@@ -1,6 +1,7 @@
 
 import java.util.Arrays;
 
+
 public class Q1365{
   public static void main(String[] args) {
     int[] nums = {8,1,2,2,3};
